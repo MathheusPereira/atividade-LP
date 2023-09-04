@@ -1,43 +1,67 @@
 Algoritmo "semnome"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Matheus Pereira da Silva Rodrigues
 // Data atual  : 02/09/2023
 Var
-// Seção de Declarações das variáveis 
- morangos, macas, totalPagar, valorDesconto, valorMorangos, valorMacas, pesoTotal: real
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
+   kgMacas: real
+   kgMorangos: real
+   resultadoMacas: real
+   resultadoMorango: real
+   desconto: real
+   valorFinal: real
+   totalKg: real
+   total: real
+   totalValor: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
- escreva ("Digite a quantidade em (kg) de morangos: ")
- leia (morangos)
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+escreva ("Quantos Kg de morangos vocÃª comprou?: ")
+   leia (kgMorangos)
+
+   escreva ("Quantos Kg de maÃ§as vocÃª comprou?: ")
+   leia (kgMacas)
+
+   limpatela
+
+   // CondiÃ§Ã£o Morango
+
+   se (kgMorangos <= 5) entao
+      resultadoMorango <- kgMorangos * 2.50
+      escreval ("Valor do morango em reais : ", resultadoMorango)
+   senao (kgMorangos > 5) entao
+      resultadoMorango <- kgMorangos * 2.20
+      escreval ("Valor do Morango em reais: ", resultadoMorango)
+   fimse
+
+   // CondiÃ§Ã£o MaÃ§as
+
+   se (kgMacas <= 5) entao
+      resultadoMacas <- kgMacas * 1.80
+      escreval ("Valor da MaÃ§a em reais: ", resultadoMacas)
+   senao (kgMacas > 5) entao
+      resultadoMacas <- kgMacas * 1.50
+      escreval ("Valor da MaÃ§a em reais ", resultadoMacas)
+   fimse
+
+   // CondiÃ§Ã£o Desconto
+
+   totalKg <- kgMacas + kgMorangos
+
+   totalValor <- resultadoMacas + resultadoMorango
+
+   se (totalValor > 25) entao
+      desconto <- totalValor * 0.10
+      escreval ("Desconto Reais ", desconto)
+   fimse
+
+   valorFinal <- totalValor - desconto
+   escreval ("Valor final: ", valor
+Final) 
+   
+
  
- escreva ("Digite a quantidade em (kg) de maças: ")
- leia (macas)
- 
- valorMorangos <- 0
- valorMacas <- 0
- 
- se morangos <= 5 entao
- valorMorangos <- morangos * 2.5
- senao
- valorMorangos <- morangos * 2.2
- fimse
- 
- se macas <= 5 entao
- valorMacas <- macas * 1.8
- senao
- valorMacas <- macas  1.5
- fimse
- 
- pesoTotal <- morangos + macas
- totalPagar <- valorMorangos + valorMacas
- 
- se (pesoTotal > 8) ou (totalPagar > 25) entao
- valorDesconto <- totalPagar - valorDesconto
- fimse
- 
- escreva ("Valor a ser pago pelo cliente: R$ ", totalPagar)
 
 Fimalgoritmo
