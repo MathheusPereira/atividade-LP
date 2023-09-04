@@ -1,18 +1,18 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Matheus Pereira da Silva Rodrigues
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valorA: real
    valorB: real
    valorC: real
    soma: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva ("Digite o valor A: ")
    leia ( valorA )
 
@@ -23,7 +23,7 @@ Inicio
    leia ( valorC )
 
    limpatela
-   // Calculando os números.
+   // Calculando os nÃºmeros.
 
    soma <- valorA + valorB
 
@@ -31,16 +31,16 @@ Inicio
    escreval ( "Valor B: ", valorB )
    escreval ( "Valor C: ", valorC )
 
-   // Executando dados do usuário.
+   // Executando dados do usuÃ¡rio.
 
    se (soma > valorC) entao
-      escreval ( "é maior que C" )
+      escreval ( "Ã© maior que C" )
    fimse
    se (soma = valorC) entao
-      escreval ( "valor é igual a C" )
+      escreval ( "valor Ã© igual a C" )
    fimse
    se (soma < valorC) entao
-      escreval ( "valor é menor que C" )
+      escreval ( "valor Ã© menor que C" )
    fimse
 
 
