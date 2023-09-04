@@ -1,28 +1,28 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Matheus Pereira da Silva Rodrigues
 // Data atual  : 04/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    combustivel: caracter
    litroalcool, litroGasolina, litros, desconto, resultado, total: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    litroAlcool <- 3.79
    litroGasolina <- 6.59
    
-   // Pergunta ao usuário
+   // Pergunta ao usuÃ¡rio
    
-   escreval ("DGITE COM LETRA MAÍUSCULA")
+   escreval ("DGITE COM LETRA MAÃUSCULA")
    escreval("")
 
    escreva ("Litros vendidos: ")
    leia (litros)
 
-   escreva ("Tipo de combustível ( A - alcool, G - gasolina): ")
+   escreva ("Tipo de combustÃ­vel ( A - alcool, G - gasolina): ")
    leia (combustivel)
 
    escreval ("")
