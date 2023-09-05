@@ -34,13 +34,13 @@ Inicio
    // Executando dados do usuário.
 
    se (soma > valorC) entao
-      escreval ( "é maior que C" )
+      escreval ( "É maior que C" )
    fimse
    se (soma = valorC) entao
-      escreval ( "valor é igual a C" )
+      escreval ( "Valor é igual a C" )
    fimse
    se (soma < valorC) entao
-      escreval ( "valor é menor que C" )
+      escreval ( "Valor é menor que C" )
    fimse
 
 
