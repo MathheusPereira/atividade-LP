@@ -54,7 +54,7 @@ escreva ("Quantos Kg de morangos você comprou?: ")
 
    se (totalValor > 25) entao
       desconto <- totalValor * 0.10
-      escreval ("Desconto Reais ", desconto)
+      escreval ("Desconto R$: ", desconto)
    fimse
 
    valorFinal <- totalValor - desconto
