@@ -58,8 +58,7 @@ escreva ("Quantos Kg de morangos você comprou?: ")
    fimse
 
    valorFinal <- totalValor - desconto
-   escreval ("Valor final: ", valor
-Final) 
+   escreval ("Valor final: ", valorFinal) 
    
 
  
